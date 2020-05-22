@@ -43,7 +43,7 @@ export default {
     };
   },
   created() {
-    API.get("find", {
+    API.get("forecast", {
       params: {
         id: this.$route.params.cityId
       }
